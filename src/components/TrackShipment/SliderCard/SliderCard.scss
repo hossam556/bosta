@@ -1,0 +1,37 @@
+.sliderCard{
+     width: 90%;
+     text-align: right;
+     border-radius: 10px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+    
+     .sliderCard_content1{
+         border-bottom: 1px solid rgb(190, 189, 189);
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 10px 30px;
+     }
+     .sliderCard_title{
+         font-size: 14px;
+         color: gray;
+     }
+     .sliderCard_title2{
+         font-weight: bold;
+     }
+
+     .sliderCard_content2{
+        padding: 10px 30px;
+     }
+}
+
+@media (max-width:750px) {
+.sliderCard{
+    font-size: 12px;
+}
+.sliderCard_content1{
+    font-size: 12px;
+}
+}
+
+

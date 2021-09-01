@@ -1,0 +1,13 @@
+.layout{
+    grid-template-areas: "nav" "main" "footer";
+    grid-template-rows: 70px auto 70px ;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 70px;
+}

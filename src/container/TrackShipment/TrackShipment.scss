@@ -1,0 +1,13 @@
+.TrackShipment_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+@media (max-width:750px) {
+  .TrackShipment_container{
+      flex-direction: column;
+  }
+}

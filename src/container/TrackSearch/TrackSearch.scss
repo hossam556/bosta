@@ -1,0 +1,39 @@
+.TrackSearch_card{
+    width: 35%;
+    min-width: 350px;
+    height: 200px;
+    margin: 80px 0;
+    border-radius: 10px;
+
+    p{
+        font-size: 18px;
+        font-family: Roboto, Helvetica, Arial, Lucida, sans-serif;
+    }
+    .Track_p2{
+        font-size: 24px;
+        font-family: "Cairo", Helvetica, Arial, Lucida, sans-serif;
+        color: #ff0000;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    input{
+        width: 44%;
+        height: 30px;
+        border: 1px solid rgb(216, 214, 214);
+        border-radius: 5px;
+        outline: none;
+        &::placeholder{
+            font-size: 20px;
+            text-align: end;
+        }
+    }
+
+    .search{
+        padding: 1px 7px;
+        border-radius: 50%;
+        background: #ff0000;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
